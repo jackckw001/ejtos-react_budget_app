@@ -1,10 +1,18 @@
 
+.currency-box{
+    --bs-alert-bg: #A5E1A0;
+}
+
   .currency-select {
     background-color: #A5E1A0;
-    color: #000000;
+    color: white;
     padding: 5px;
   }
   
+  .currency-select option {
+    color: black;
+  }
+
   .currency-select option:hover {
     background-color: #000000;
     color: #000000;
@@ -19,3 +27,45 @@
     background-color: black;
   }
 */
+
+.circle-add-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #A5E1A0;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .circle-add-button:hover {
+    background-color: #A5E1A0;
+  }
+
+  .circle-minus-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #a80000;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .circle-minus-button:hover {
+    background-color: #a80000;
+  }
+
+  

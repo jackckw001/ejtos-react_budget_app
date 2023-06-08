@@ -39,7 +39,7 @@ const Budget = () => {
     return (
         <div className='alert alert-secondary' style={{display: 'flex'}}>
 
-            <label htmlFor="budget" style={{ marginLeft: '0rem', marginRight: '0px' }}>{'Budget: ' + currency}</label>
+            <label htmlFor="budget" style={{ width: '80px', marginLeft: '0rem', marginRight: '0px' }}>{'Budget: ' + currency}</label>
             <input
                         required='required'
                         type='number'

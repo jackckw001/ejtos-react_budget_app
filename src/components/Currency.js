@@ -19,11 +19,12 @@ const Currency = () => {
     
 
     return (
-        <div className="alert alert-secondary">
+        <div className="alert alert-secondary currency-box">
 
-            <select className="custom-select currency-select" id="inputGroupSelectCurrency" onChange={(event) => refreshCurrency(event.target.value)}>
-                <option defaultValue value="$" name="Dollar">$ Dollar</option>
-                <option value="£" name="Pound">£ Pound</option>
+            <select className="custom-select currency-select" value={currency} onChange={(event) => refreshCurrency(event.target.value)}>
+
+                <option value="$" name="Dollar">$ Dollar</option>
+                <option defaultValue value="£" name="Pound">£ Pound</option>
                 <option value="€" name="Euro">€ Euro</option>
                 <option value="₹" name="Ruppee">₹ Ruppee</option>
             </select>
